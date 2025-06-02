@@ -6,7 +6,7 @@ def test_greeting_eng():
 def test_greeting_nor():
     assert greeting("hello", "Norwegian") == "hello norwegian"
 def test_greeting_default():
-    assert greeting("Max", "German") == "I don't speak any language!"
+    assert greeting("ax", "uu") == "hi u"
 
 # add unit tests to cover exceptions in greeting(name, language) in second/second.py
 # start by importing pytest: import pytest
