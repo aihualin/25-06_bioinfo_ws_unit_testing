@@ -1,13 +1,13 @@
 from second.second import greeting
 
 def test_greeting_eng():
-    assert greeting("James", "English") == "Hello James!"
+    assert greeting("tromsø", "English") == "Hello James!"
 
 def test_greeting_nor():
-    assert greeting("Solveig", "Norwegian") == "Hei Solveig!"
+    assert greeting("hello", "Norwegian") == "Hei Solveig!"
 
 def test_greeting_default():
-    assert greeting("Max", "German") == "I don't speak your language!"
+    assert greeting("Max", "German") == "I don't speak any language!"
 
 # add unit tests to cover exceptions in greeting(name, language) in second/second.py
 # start by importing pytest: import pytest
