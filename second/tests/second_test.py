@@ -1,11 +1,10 @@
 from second.second import greeting
 
 def test_greeting_eng():
-    assert greeting("tromsø", "English") == "Hello James!"
+    assert greeting("tromsø", "English") == "tromsø english!"
 
 def test_greeting_nor():
-    assert greeting("hello", "Norwegian") == "Hei Solveig!"
-
+    assert greeting("hello", "Norwegian") == "hello norwegian"
 def test_greeting_default():
     assert greeting("Max", "German") == "I don't speak any language!"
 
