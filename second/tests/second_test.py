@@ -4,7 +4,7 @@ def test_greeting_eng():
     assert greeting("tromsø", "English") == "Hello tromsø!"
 
 def test_greeting_nor():
-    assert greeting("hello", "Norwegian") == "Hei norwegian"
+    assert greeting("yoyo", "Norwegian") == "Hei yoyo"
 def test_greeting_default():
     assert greeting("ax", "uu") == "Hello u"
 
