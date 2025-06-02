@@ -2,7 +2,7 @@ from third.third import greeting
 import pytest
 
 def test_greeting_eng():
-    assert greeting("James", "English") == "haha James!"
+    assert greeting("James", "English") == "Hello James!"
 
 def test_greeting_nor():
     assert greeting("Solveig", "Norwegian") == "Hei Solveig!"
